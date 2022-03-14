@@ -1,10 +1,11 @@
 *{ margin: 0; padding:0; box-sizing: border-box; }
 
 .navbar{
+    width: 100%;
     background-color:#dc6a00;
 }
 .form-control {
-    width:  500px;
+    width:  100%;
     padding-left: 10px;
     margin-right: 10px;
     color:#f58f0b;
@@ -18,6 +19,14 @@ a {
 
 }
 
+.card-body1{
+    width: 100%;
+    height: 10%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 2%;
+}
+
 
 .row {
     display: flex;
@@ -27,17 +36,17 @@ a {
 
 .footer {
     position: absolute;
-    width: 1400px;
-    height: 180px;
-    background-color: #dc6900;;
+    width: 100%;
+    height: 40%;
+    background-color: #f57506;;
     color: aliceblue;
     font-weight: bold;
 }
 
 
 .footer-item img {
-    width: 100px;
-    height: 90px;
+    width: 40%;
+    height: 60%;
 
     margin-left: 80px;
     margin-bottom: 3px;
@@ -47,12 +56,12 @@ a {
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
     font-size: smaller;
-    margin-left: 85px;
+    margin-left: 80px;
 }
 
 .footer-col {
     width: 30%;
-    padding: 5px 15px;
+    padding: 5px 5px;
 }
 
 .footer-col ul {
